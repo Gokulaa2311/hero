@@ -6,6 +6,40 @@ player_Y=10;
 var player_object="";
 var block_image_object="";
 
+if(keyPressed == '70')
+{
+    new_image('ironman_face.png')
+    console.log("f")
+}
+
+if(keyPressed == '66')
+{
+    new_image('spiderman_body.png')
+    console.log("b")
+}
+
+if(keyPressed == '76')
+{
+    new_image('ironman_legs.png')
+    console.log("l")
+}
+
+if(keyPressed == '82')
+{
+    new_image('thor_right_hand.png')
+    console.log("r")
+}
+
+if(keyPressed == '76')
+{
+    new_image('hulk_left_hand.png')
+    console.log("h")
+}
+
+
+
+
+
 function player_update()
 {
     fabric.Image.fromURL("https://img.pngio.com/download-baby-groot-png-baby-groot-transparent-png-image-with-no-baby-groot-transparent-background-570_857.png", function(Img)
@@ -35,6 +69,8 @@ function new_image(get_image)
 
     }); 
 }
+
+
 
 function up()
 {
