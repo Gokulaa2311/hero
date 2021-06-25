@@ -1,10 +1,9 @@
 .body_background 
 {
-    background-image: url("https://images.hdqwalls.com/wallpapers/avengers-end-game-4k-banner-cb.jpg");
-	background-position: center;
+    background-image: url("https://i.postimg.cc/2y02f4Mj/avenger-bg.jpg");
+    background-position: center;
     background-size: cover;
 }
-
 #myCanvas
 {
     border-width:10px;
